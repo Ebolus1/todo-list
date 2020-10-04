@@ -1,7 +1,67 @@
 .main-title {
   text-align: center;
+  color:#fff;
+  font-weight: 100;
+  font-size: 4em;
+  letter-spacing: 4px;
 }
 
 .delete {
   margin-right: 5px;
 }
+
+.task-input{
+  width: 100%;
+}
+
+.task-item{
+  padding: 20px 0;
+  border-bottom: 0.5px solid #f7f7f7;
+  border-radius: 0px;
+  background-color:  #f4f7fc;
+  -webkit-box-shadow: 3px 3px 46px -8px rgba(0,0,0,0.2);
+  -moz-box-shadow: 3px 3px 46px -8px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 46px -8px rgba(0,0,0,0.2);
+  color: #7f7f7f;
+  font-size: 18px;
+}
+
+body{
+  background-image: linear-gradient(#ff6161,#ff768c);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: auto;
+ 
+}
+
+.form-row {
+  margin-bottom: 10px;
+  background-color: yellow !important;
+}
+
+.list-container {
+  -webkit-box-shadow: 3px 3px 46px -8px rgba(0,0,0,0.68);
+  -moz-box-shadow: 3px 3px 46px -8px rgba(0,0,0,0.68);
+  box-shadow: 3px 3px 46px -8px rgba(0,0,0,0.68);
+}
+
+.list-copy{
+  margin-bottom: 0px;
+}
+
+button{
+  background-color: rgba(255, 0, 0, 0.0);;
+  border: none;
+}
+
+input[type='checkbox']{
+  width: 15px !important;
+  height: 15px !important;
+  margin: 5px;
+
+  box-shadow: none;
+  font-size: 2em;
+  margin-right: 15px;
+}
+
+input[type='checkbox']:checked {background-color: #6baa75; content:'X';} and input[type='checkbox']:checked:after {content:'X'; color: white;position: absolute;line-height: 1rem;font-size:1rem;padding-left: 0.15rem;}
